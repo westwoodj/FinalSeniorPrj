@@ -80,7 +80,7 @@ l = B.shape[0]  # number of publishers
 r = int(X.shape[0] * SPLIT) #
 #W = rng.choice(a=[0, 1], size=(m, n), p=[.85, .15])
 #A = rng.choice(a=[0, 1], size=(m, m), p=[.95, .05])
-scoring = W*y
+scoring = W*(y* -1)
 
 c = [(sum(row)+len(row))/(len(row)*2) for row in scoring]
 #c = np.load('data/{}_results/c.npy'.format(TOPIC))

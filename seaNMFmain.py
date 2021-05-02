@@ -78,7 +78,7 @@ r = int(X.shape[0] * SPLIT) #68 for covid
 
 #A = rng.choice(a=[0, 1], size=(m, m), p=[.85, .15])
 
-scoring = W*y
+scoring = W*(y* -1)
 print(X.shape)
 
 
